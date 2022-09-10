@@ -1,7 +1,13 @@
 # SecretNetwork-upgradable-contract
 
 Recently, I've developed "upgradable" secret contract for SecretNetwork.
-I cannot found any documents which describe this approach, so I'll share it with community.
+
+The documents says some methods( https://docs.scrt.network/secret-network-documentation/development/secret-contracts/best-practices/upgradability ) but these remains some problems.
+
+I try to develop storage-contract pattern inspired by EVM's delegate call, this seems to work well.
+This method may be well-knowned, but I cannot found any documents about this approach.
+So I'll share it with community.
+If you find any privacy or other risk in this solution, please inform me.
 
 # Structure
 
