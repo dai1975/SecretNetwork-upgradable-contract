@@ -1,0 +1,18 @@
+{
+  "name": "upgradable-contract",
+  "endpoint": "https://grpc.pulsar.scrttestnet.com",
+  "chainId":  "pulsar-2",
+  "mnemonic": [
+    "set two account which has SCRT token",
+    "second account is only used in test"
+  ],
+  "gas": {
+    "storeStorage": 1667557, "_": 1467557,
+    "instantiateStorage": 138291, "_": 118291,
+    "storeApp": 1314837, "_": 1114837,
+    "instantiateApp": 140367, "_": 120367,
+    "setApplications": 136234, "_": 116234,
+    "_end": null
+  },
+  "_end": null
+}
